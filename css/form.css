@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #64ccc5;
+}
+.register .form-label{
+    display: block;
+}
+.avatar{
+    width: 150px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+
+.register{
+    display: flex;
+    border: 2px;
+    background-color: #04364a;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.auto{
+    display: flex;
+}
+.content{
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fffefe;
+    border: 1px solid fffefe;
+    border-radius: 10px;
+}
+
+.register-form{
+    margin: 5px 10px;
+}
+
+.register-form .communication label{
+    display: block;
+}
+.fomex input{
+    width: 330px;
+    border-radius: 5px;
+    border: 1px solid #555d60;
+}
+
+.form-group {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.submit{
+    background-color: #0d6885;
+    color: #fffefe;
+    border-radius: 5px;
+}
+
+.submit:hover{
+    background-color: #64ccc5;
+}
