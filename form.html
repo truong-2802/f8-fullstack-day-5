@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <form action="" class="register">
+    <form action="" class="register" autocomplete="off">
         <div class="register-form">
             <label for="profile-picture" class="form-label"></label>
             <label for="profile-picture" class="form-avatar">
@@ -22,28 +22,28 @@
             <div class="fomex">
                 <div class="register-form">
                     <label for="display-name" class="form-label">Display Name :</label>
-                    <input type="text" id="display-name" placeholder="Display name ...">
+                    <input type="text" id="display-name" placeholder="Display name ..." spellcheck>
                 </div>
                 <div class="register-form">
                     <label for="email" class="form-label">Email :</label>
-                    <input type="email" id="email" placeholder="Email đăng nhập ...">
+                    <input type="email" id="email" placeholder="Email đăng nhập ..." spellcheck>
                 </div>
                 <div class="register-form">
                     <label for="phone-number" class="form-label">Phone Number :</label>
-                    <input type="phone" id="phone-number" placeholder="Phone number ...">
+                    <input type="tel" id="phone-number" placeholder="Phone number ..." spellcheck>
                 </div>
                 <div class="register-form">
                     <label for="password" class="form-label">Password :</label>
-                    <input type="password" id="password" placeholder="Password ...">
+                    <input type="password" id="password" placeholder="Password ..." >
                 </div>
                 <div class="register-form">
                     <label for="confirm-password" class="form-label">Confirm Password :</label>
-                    <input type="password" id="confirm-password" placeholder="Confirm Password ...">
+                    <input type="password" id="confirm-password" placeholder="Confirm Password ..." >
                 </div>
 
                 <div class="register-form">
-                    <label for="adress" class="form-label">Address :</label>
-                    <input type="text" id="adress" placeholder="Address ...">
+                    <label for="address" class="form-label">Address :</label>
+                    <input type="text" id="address" placeholder="Address ..." spellcheck>
                 </div>
             </div>
 
@@ -51,13 +51,13 @@
                 <div class="register-form">
                     <label class="form-label">Gender</label>
                     <label>
-                        <input type="radio" name="gender" valua="male" checked> male
+                        <input type="radio" name="gender" value="male" checked> male
                     </label>
                     <label>
-                        <input type="radio" name="gender" valua="female"> Female
+                        <input type="radio" name="gender" value="female"> Female
                     </label>
                     <label>
-                        <input type="radio" name="gender" valua="other"> Other
+                        <input type="radio" name="gender" value="other"> Other
                     </label>
                 </div>
                 <div class="register-form">
@@ -73,13 +73,13 @@
                 <div class="communication">
                     <label for="communication-preferences" class="form-label">Communication Preferences :</label>
                     <label>
-                        <input type="checkbox" name="gender"> Subscribe to Newsletter
+                        <input type="checkbox" > Subscribe to Newsletter
                     </label>
                     <label>
-                        <input type="checkbox" name="gender"> Receive Promotional Emails
+                        <input type="checkbox"> Receive Promotional Emails
                     </label>
                     <label>
-                        <input type="checkbox" name="gender"> Get Product Updates
+                        <input type="checkbox" > Get Product Updates
                     </label>
                 </div>
             </div>
